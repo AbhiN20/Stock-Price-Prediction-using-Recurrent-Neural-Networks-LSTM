@@ -45,4 +45,3 @@ I used only closing price as an indicator to build the model and prediction. The
 
 Finally, this work can greatly help the quantitative traders to take decisions.
 
-Stock-Price-Prediction-
