@@ -30,7 +30,7 @@ Train/Test accuracy metric is root mean square error (RMSE) which measures the d
 ![image](https://github.com/AbhiN20/Stock-Price-Prediction-using-Recurrent-Neural-Networks-LSTM/assets/122420588/af6da682-aefc-44d2-8e4b-20236656ee8f)
 
 # Results:
-The comparison of OHLC, HLC and Closing price:
+The comparison between original stock price and predicted price during validation period:
 
 ![image](https://github.com/AbhiN20/Stock-Price-Prediction-using-Recurrent-Neural-Networks-LSTM/assets/122420588/962690c0-c8eb-4c6d-b0ee-f375f730beb4)
 
@@ -40,8 +40,8 @@ After the training the fitted curve with original stock price:
 ![image](https://github.com/AbhiN20/Stock-Price-Prediction-using-Recurrent-Neural-Networks-LSTM/assets/122420588/82a561d1-3e39-4023-bcad-e85bb964c856)
 
 
-Observation and Conclusion:
-Since difference among OHLC average, HLC average and closing value is not significat, so only OHLC average is used to build the model and prediction. The training and testing RMSE are: 1.24 and 1.37 respectively which is pretty good to predict future values of stock. Stock price of last day of dataset was 158.8745 and using this model and price of next two days are predicted as 160.3230 and 160.9240 - which were 159.2075 and 159.8325 on 14th and 15th August 2017 according to Yahoo Finance. However, future values for any time period can be predicted using this model.
+# Observation and Conclusion:
+I used only closing price as an indicator to build the model and prediction. The testing RMSE was: 0.043 which is pretty good to predict future values of stock. Stock price of last day of dataset was 178.1799 and predicted stock price was 177.9638. However, future values for any time period can be predicted using this model.
 
 Finally, this work can greatly help the quantitative traders to take decisions.
 
